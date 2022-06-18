@@ -1,0 +1,57 @@
+.footer {
+    max-width: 75%;
+    margin: 1rem auto;
+  }
+  
+  .last__section__image img {
+    padding-bottom: 18px;
+    padding-top: 24px;
+  }
+  
+  .last__section__image {
+    padding-top: 60px;
+  }
+  
+  .last__section__links ul {
+    list-style-type: none;
+  }
+  
+  .footer,
+  .footer a {
+    color: var(--gray-1);
+    font-size: 16px;
+    font-family: "Netflix Sans Regular";
+  }
+  
+  .footer-cols ul li {
+    list-style: none;
+    padding-bottom: 20px;
+  }
+  
+  .footer p {
+    margin-bottom: 1.5rem;
+  }
+
+  .footer .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+  }
+  
+  .footer li {
+    line-height: 1.9;
+  }
+  
+  .footer-cols ul li a {
+    text-decoration: none;
+  }
+  
+  .footer-cols ul li a img {
+    width: 70%;
+    height: 30%;
+  }
+  
+  .second_link {
+    list-style-type: none;
+  }
+  

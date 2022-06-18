@@ -1,0 +1,31 @@
+.container-movie {
+  display: flex;
+}
+
+.number-movie {
+  display: inline-block;
+  height: 204px;
+  line-height: 204px;
+  font-size: 268px;
+  font-weight: 500;
+  -webkit-text-stroke: 1px white;
+  color: black;
+  position: relative;
+  margin-right: -28px;
+  z-index: 1;
+}
+
+.movie {
+  position: relative;
+  z-index: 2;
+}
+.cards::-webkit-scrollbar {
+  background: transparent;
+}
+
+.img-number {
+  height: 220px;
+  width: 145px;
+  margin-left: -20px;
+  margin-right: 12px;
+}

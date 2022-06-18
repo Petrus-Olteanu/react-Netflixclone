@@ -1,0 +1,54 @@
+/* NetflixLogoSettings */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: var(--black);
+    z-index: 999;
+}
+
+.logo {
+    width: 115px;
+    height: 60px;
+}
+
+.left__header__links{
+    margin-left: 16px;
+    display: flex;
+}
+
+.left__header__links ul{
+    padding-top: 14px;
+    padding-left: 16px;
+}
+
+.left__header__links ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: "Netflix Sans Thin";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.left__header__links ul li {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+    margin: 8px;
+}
+
+.right__header__links ul{
+    display: flex;
+    margin: 6px;
+    padding-bottom: 8px;
+}
+
+.right__header__links ul li {
+    margin: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}

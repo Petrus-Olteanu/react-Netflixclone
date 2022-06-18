@@ -1,0 +1,95 @@
+.title {
+  color: white;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  margin-top: -10px;
+}
+
+/* BannerTitleDescription */
+.banner__contents {
+  margin-left: 30px;
+  margin-top: -600px;
+  padding-top: 10px;
+}
+
+/* Top10RedIcon&BestTvSeries */
+.top__red__badge {
+  padding-left: 30px;
+}
+
+.subtitle {
+  display: inline-block;
+  font-size: 24px;
+  font-family: "Netflix Sans Thin";
+  padding-bottom: 30px;
+  vertical-align: middle;
+}
+
+/* MainBannerGeneral */
+.banner__description,
+.banner__image,
+.top_ten,
+.banner__buttons,
+.logo {
+  padding-left: 25px;
+}
+
+.banner__description {
+  color: var(--white);
+  width: 660px;
+  height: 132px;
+  font-family: "Netflix Sans Regular";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 33px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* BannerButtonsGeneral */
+.banner__buttons {
+  margin-top: 16px;
+  padding-bottom: 45px;
+}
+
+.banner__button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 48px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.banner__button img {
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+/* WhiteButton */
+#white-btn {
+  color: black;
+  background-color: var(--white);
+}
+
+/* LightGrayButton */
+#lightgray-btn {
+  background-color: rgba(121, 112, 112, 0.322);
+  color: var(--white);
+}

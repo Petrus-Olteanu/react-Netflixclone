@@ -1,0 +1,212 @@
+:root {
+    --white: #fff;
+    --light-gray-1: #dddd;
+    --light-gray-2: #e5e5e5;
+    --gray-1: #8a8a8a;
+    --gray-2: #808080;
+    --black: #141414;
+    --red: #b9090b;
+}
+* {
+    font-family: "Netflix Sans Regular";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Container*/
+.container{
+    font-family: "Netflix Sans Regular";
+    color: var(--white);
+    font-size: 10px;
+    border: 10px solid var(--black);
+    border-radius: 5px;
+    width: 700px;
+    height: 1250px;
+    position: absolute;
+    top:50%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -100px;
+    background-color: var(--black);
+    z-index: 999999;
+    
+}
+/*Header part*/
+.imgb{
+    width: 100%;
+}
+.dialog__banner__button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: relative;
+    top:-150px;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    margin-left: 20px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+}
+.dialog__banner__button img {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+/* firstIcon*/
+.check{
+    position: relative;
+    top:-130px;  
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    right: 20px;
+}
+
+/* secondIcon*/
+.recommend{
+    position: relative;
+    top:-130px;  
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    right: 30px;
+}
+
+/* closeIconOption */
+.close{
+  cursor: pointer;
+  position: absolute;
+  background-color:transparent;
+  border: none;
+  right: 0;
+  top: 0;
+}
+
+/* rowInfoDescription */
+.rowinfo{
+    background-color:var(--black);
+    border: 2px solid var(--black);
+    height:40px;
+    width: 100%;
+    position: relative;
+    top:-60px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* paragraphInfo */
+.pinfo{
+    color:green;
+    margin-left: 20px;
+    font-size: 15px; 
+    display: flex;
+    
+}
+
+.pinfo2{
+  color: #fff;
+  font-size: 15px;
+  margin-left:6px;
+}
+
+.pinfo3{
+    color: #fff;
+    border: 1px solid white;
+    width: 50px;
+    height: 20px;
+    font-size: 15px;
+    margin-left:6px;
+}
+
+.pinfo4{
+  color: #fff;
+  border: 1px solid white;
+  width: 20px;
+  height: 15px;
+  font-size: 12px;
+  margin-left:6px;
+}
+/* plotInfo */
+.trama{
+    color: #fff;
+    position: relative;
+    padding: 0 16px;
+    font-size: 15px;
+    top:-50px;
+}
+/* castList */
+.cast{
+    color: #fff;
+    position:absolute;
+    width: 40%;
+    right: 0;
+    top:0px;
+    
+}
+.scast span{
+    margin-top: 10px;
+    padding-left: 8px;
+}
+  
+  
+strong{
+    color:grey;
+    font-size: 14px;
+}
+  
+/*Episode part*/
+.space{
+    margin: 8px 16px;
+}
+/*Top*/
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.show{
+    border-radius: 4px;
+    background-color: #242424;
+}
+.show option{
+    padding: 60px;
+}
+/*Mid*/
+.mid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+.episode{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #808080;
+    border-top: solid 1px #808080;
+    padding: 8px 0;
+}
+.episode img{
+    height: 80px;
+    border-radius: 4px;
+    padding-right: 14px;
+}
+.episode h3{
+    padding-right: 14px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    background: red;
+}
+/*rgba(0, 0, 0, 0.5)*/

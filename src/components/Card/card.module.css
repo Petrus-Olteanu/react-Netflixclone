@@ -1,0 +1,132 @@
+.card-container {
+  width: 215px;
+  border-radius: 3px;
+}
+
+.general-container {
+  width: 215px;
+  margin: 5px;
+}
+
+/* HOVER EFFECT ON IMG */
+.card {
+  padding: 14px 2px;
+  transition: 250ms all;
+}
+
+.general-container:hover {
+  height: 290px;
+  width: 215px;
+  transform: scale(1.2);
+  z-index: 3;
+}
+
+/* boxInfoSection */
+.card__info {
+  display: none;
+  padding: 8px;
+  height: 140px;
+  width: 100%;
+}
+
+/* boxInfoDisplayWhenHover */
+.general-container:hover .card__info {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  background: black;
+  transition: all 0.2s ease-in-out;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.container-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box-button {
+  display: flex;
+  width: 100%;
+}
+
+.box-button-circle {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  cursor: pointer;
+}
+
+.circle-down {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* aggiunto info episodi  */
+.box-button-circle:hover .alert {
+  display: block;
+}
+.alert {
+  display: none;
+  padding: 4px;
+  height: 24px;
+  margin-right: -50px;
+  margin-top: -30px;
+  font-size: 12px;
+  color: var(--black);
+  border: 1px solid var(--white);
+  border-radius: 2px;
+  background: var(--white);
+}
+
+
+.box-button .material-symbols-outlined {
+  font-size: 20px;
+  color: var(--light-gray-2);
+}
+
+.section-info {
+  font-size: 14px;
+}
+
+.vm14 {
+  border: 1px solid var(--gray-1);
+  padding: 0 8px;
+}
+
+.section-info .material-symbols-outlined {
+  vertical-align: middle;
+  color: var(--light-gray-2);
+}
+
+.info {
+  margin: 8px 0;
+}
+
+.info p {
+  color: green;
+}
+
+.seasons{
+  margin-left: 5px;
+}
+
+.show-description {
+  width: 100%;
+  font-size: 12px;
+}
+
+.show-description ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.show-description ul li {
+  list-style-type: none;
+}
+
+.text{
+  color: green;
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Homepage</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./homePageStyle.css">
+
+
+    <!-- GOOGLE ICONS LINK -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+
+<body>
+    <!-- HEADER -->
+    <div class="main-header">
+        <navbar class="navbar">
+        <!-- LEFT HEADER LINKS LIST -->
+        <div class="left__header__links">
+            <div class="netflix__logo">
+                <a href="home-page.html" title="homepage">
+                    <img src="./assets/images/logo.png" alt="netflix logo" class="logo">
+                </a>
+            </div>
+        <ul>
+            <li><a href="home-page.html" title="item__link">Home</a></li>
+            <li><a href="home-page.html" title="item__link">Serie TV</a></li>
+            <li><a href="home-page.html" title="item__link">Film</a></li>
+            <li><a href="home-page.html" title="item__link">Nuovi e popolari</a></li>
+            <li><a href="home-page.html" title="item__link">Audio e sottotitoli</a></li>
+        </ul>
+        </div>
+        <!-- RIGHT HEADER LINKS LIST -->
+        <div class="right__header__links">
+            <ul>
+                <li><a href="#home-page.html" title="img"><img src="./assets/images/searchIcon.png" alt="profile image icon" class="profile__img search-icon"></a></li>
+                <li><a href="#home-page.html" title="img"><img src="./assets/images/RingbellIcon.png" alt="profile image icon" class="profile__img ringbell-icon"></a></li>
+                <li><a href="#home-page.html" title="img"><img src="./assets/images/ProfileIMG.png" alt="profile image icon" class="profile__img" id="profile-icon"></a></li>
+                <li><a href="#home-page.html" title="img"><img src="./assets/images/dropDownIcon.png" alt="dropdown image icon" class="profile__img dropdown-icon"></a></li>
+            </ul>
+        </div>
+    </navbar>
+    </div>
+
+
+    <!-- BANNER HEADER -->
+    <div class="banner">  
+        <video class="background-video" autoplay muted loop poster="./assets/img/posters/MoviePoster.png">
+            <source src="./assets/images/video.mp4" type="video/mp4">
+        </video>
+
+        <div class="banner__contents">
+            <h1>Snowpiercer</h1>
+            <!-- RED TOP 10 ICON -->
+            <img src="./assets/images/Top10Badge.png" alt="top 10 red badge" class="top__red__badge">
+            <h3 class="subtitle">Tra le migliori serie Italiane</h3>
+            <div class="banner__description">
+            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <br>the industry's standard dummy text ever since the 1500s,<br> when an unknown.
+            </div>
+            <!-- BANNER BUTTONS -->
+            <div class="banner__buttons">
+                <button class="banner__button" title="button" id="white-btn"><div><img src="./assets/images/Play.png" alt=""><span>Riproduci</span></div></button>
+                <button class="banner__button" title="btn" id="lightgray-btn"><div><img src="./assets/images/Info.png" alt=""><span> Altre info</span></div></button>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <div class="row">
+            <h3 id="second__row__title">Popolari su Netflix</h3>
+            <!-- cards -->
+            <div class="cards invisible-scrollbar">
+                <button class="freccia right"><img src="./assets/images/Vector-right.png"   alt="Destra"></button>
+                <button class="freccia left"><img src="./assets/images/Vector-left.png"     alt="Sinistra"></button>
+
+            <div class="poster-container"></div>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Campari, continua a guardare</h3>
+            <!-- cards -->
+            <div class="cards invisible-scrollbar">
+                <button class="freccia right"><img src="./assets/images/Vector-right.png"   alt="Destra"></button>
+                <button class="freccia left"><img src="./assets/images/Vector-left.png"     alt="Sinistra"></button>
+
+            <div class="poster-container"></div>
+            </div>
+        </div>
+        <div class="row">
+            <h3>I titoli del momento</h3>
+            <!-- cards -->
+            <div class="cards invisible-scrollbar">
+                <button class="freccia right"><img src="./assets/images/Vector-right.png"   alt="Destra"></button>
+                <button class="freccia left"><img src="./assets/images/Vector-left.png"     alt="Sinistra"></button>
+
+            <div class="poster-container"></div>
+            </div>
+        </div>
+
+        <!-- row Poster -->
+        <div class="row-poster">
+            <h2 class="poster__title">Originali Netflix</h2>
+            <!-- cards -->
+            <div class="cards invisible-scrollbar">
+                <button class="freccia right poster"><img src="./assets/images/Vector-right.png" alt="Destra"></button>
+                <button class="freccia left poster"><img src="./assets/images/Vector-left.png" alt="Sinistra"></button>
+                <div class="row-poster-container">
+                </div>
+            </div>
+        </div>
+
+        <!-- NUMBER FILM LIST -->
+        <div class="row-number">
+            <h2 class="top10">La top 10 di oggi in Italia</h2>
+            <div class="cards">
+                <button class="freccia right"><img src="./assets/images/Vector-right.png" alt="Destra"></button>
+                <button class="freccia left"><img src="./assets/images/Vector-left.png" alt="Sinistra"></button>
+                <div class="container-row">
+                    <div class="container-movie"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LAST ROW SECTION -->
+        <div class="row">
+            <h3 id="third__row__title">Popolari in Italia</h3>
+            <!-- cards -->
+            <div class="cards invisible-scrollbar">
+                <button class="freccia right"><img src="./assets/images/Vector-right.png"   alt="Destra"></button>
+                <button class="freccia left"><img src="./assets/images/Vector-left.png"     alt="Sinistra"></button>
+
+            <div class="poster-container"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 id="first__row__title">Continua a guardare...</h3>
+            <!-- cards -->
+            <div class="cards invisible-scrollbar">
+                <button class="freccia right"><img src="./assets/images/Vector-right.png"   alt="Destra"></button>
+                <button class="freccia left"><img src="./assets/images/Vector-left.png"     alt="Sinistra"></button>
+
+            <div class="poster-container"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!--General container-->
+    <div class="dialog-container">
+        <!--Image background container-->
+        <div class="image-b">
+            <img src="./assets/images/breaking-bad.jpeg" alt="breaking-bad" class="img-b"> 
+            <!--Button Play-->
+            <button class="dialog__banner__button" title="btn" id="white-button">
+                <div>
+                    <img src="./assets/images/Play.png" alt="">
+                    <span>Riproduci</span>
+                </div>
+            </button>
+            <!--Button Check-->
+            <button class="check" title="btn">
+                <div>
+                    <img src="./assets/images/check_circle.png" alt="">
+                </div>
+            </button>
+            <!--Button recommend-->
+            <button class="recommend" title="btn">
+                <div>
+                    <img src="./assets/images/recommend.png" alt="">
+                </div>
+            </button>
+            <!--Button close dialog-->
+            <button class="close" title="btn">
+                <div>
+                    <img src="./assets/images/close.png" alt="" id="close-icon">
+                </div>
+            </button>
+        </div>
+        <!-- Dialog Row Information-->
+        <dialog open="" class="row-info">
+            <p class="p-info">99% compatibile</p>
+            <p class="p-info2">2013</p>
+            <p class="p-info3">VM14</p>
+            <p class="p-info2">5 stagioni</p>
+            <p class="p-info4">HD</p>
+            <!--Cast-->
+            <div class="cast">
+                <div class="s-cast">
+                    <strong>Cast:</strong><span>Bryan Cranston,Aaron Paul, Anna Gunn, altro</span> <br>
+                </div>
+                <div class="s-cast">
+                    <strong>Generi:</strong><span>Serie TV crime, Thriller TV, Drammi TV</span><br>
+                </div>
+                <div class="s-cast">
+                    <strong>Caratteristiche:</strong><span>Violento,Crudo,Cupo</span><br>
+                </div>
+                
+            </div>
+        </dialog>
+        <!--Trama-->
+        <p class="trama">
+            Un insegnante di chimica con un cancro allo stadio<br> terminale comincia a
+            produrre e spacciare<br> metanfetamina con un suo ex studente per assicurare
+            <br>un futuro alla famiglia.
+        </p>
+        
+        <!-- LIST EPISODES -->
+        <div class="space">
+            <div class="top">
+                <h3>Episodi</h3>
+                <div class="shows">
+                    <select name="show" id="show" class="show" title="episodes">
+                        <option value="stagione1">Stagione 1</option>
+                        <option value="stagione2">Stagione 2</option>
+                        <option value="stagione3">Stagione 3</option>
+                        <option value="stagione4">Stagione 4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mid" id="mid">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- LAST SECTION LINKS -->
+    <footer class="footer">
+        <!-- SOCIAL MEDIA ICONS -->
+        <div class="last__section__image">
+            <img src="./assets/images/Social.png" alt="social logo img">
+        </div>
+
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">Autodescrizione</a></li>
+                <li><a href="#">Rapporti con gli investitori</a></li>
+                <li><a href="#">Note legali</a></li>
+                <li><a href="#">Bize ulasin</a></li>
+                <li><a href="#" id="gray_box"><img src="./assets/images/grayBorder.png" alt="gray icon"></a></li>
+            </ul>
+            <ul class="second_link">
+                <li><a href="#">Centro assistenza</a></li>
+                <li><a href="#">Opportunità di lavoro</a></li>
+                <li><a href="#">Preferenze per i cookie</a></li>
+            </ul>
+            <ul class="second_link">
+                <li><a href="#">Carte Regalo</a></li>
+                <li><a href="#">Condizioni di utilizzo</a></li>
+                <li><a href="#">Informazioni sull'azienda</a></li>
+            </ul>
+            <ul class="second_link">
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contattaci</a></li>
+            </ul>
+        </div>
+    <footer>
+
+
+
+
+    <!-- JS LINK -->
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./env.js"></script>
+</body>
+</html>

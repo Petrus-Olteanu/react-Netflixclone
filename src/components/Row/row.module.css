@@ -1,0 +1,53 @@
+/* rowSection */
+.row {
+  margin: 32px 0;
+  height: 180px;
+  position: relative;
+}
+h3 {
+  color: var(--white);
+  margin-left: 32px;
+  font-size: 17px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  color: #fff;
+  padding-left: 44px;
+  overflow-y: hidden;
+}
+
+.poster-container {
+  display: flex;
+}
+.invisiblescrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ARROW  */
+.freccia {
+  width: 50px;
+  height: 130px;
+  text-align: center;
+  z-index: 99;
+  background: transparent;
+  border: none;
+}
+
+.freccia:hover {
+  background: rgba(20, 20, 20, 0.5);
+  transition: 250ms all;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
